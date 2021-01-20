@@ -16,11 +16,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val myDataSet = DataSource().loadAffirmations()
-
         val recyclerView = binding.recyclerView
-
         recyclerView.adapter = ItemAdapter(this, myDataSet)
-
         recyclerView.setHasFixedSize(true)
     }
 }

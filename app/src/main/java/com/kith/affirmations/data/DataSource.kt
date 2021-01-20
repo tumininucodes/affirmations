@@ -3,7 +3,6 @@ package com.kith.affirmations.data
 import com.kith.affirmations.R
 import com.kith.affirmations.model.Affirmation
 
-
 class DataSource {
 
     fun loadAffirmations() : List<Affirmation> {
